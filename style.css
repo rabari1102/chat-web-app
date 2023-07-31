@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Default text color for the entire app */
+}
+h1{
+    color:red;
+}
+
+.chat__section {
+    max-width: 600px;
+    margin: 20px auto; /* Adjust the margin as needed */
+    padding: 20px;
+    border: 2px solid rgb(9, 8, 8); /* Border around the chat app body */
+    border-radius: 20px; /* Rounded corners for the chat app body */
+    background-color: gray; /* Background color for the chat app body */
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    margin-bottom: 20px;
+    background-color: rgb(9, 9, 9); /* Header background color */
+    color: #fff; /* Text color in the header */
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #f00; /* Rounded corners for the header */
+}
+
+.brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.incommingmessage {
+    background-color: #444; /* Incomming message background color */
+    border: 2px solid #f00;
+    margin-right: 200px;
+}
+
+.outgoingmessage {
+    background-color: #f00; /* Outgoing message background color */
+    text-align: right;
+    border: 2px solid rgb(9, 8, 8);
+    margin-left: 200px;
+}
+
+h4 {
+    margin: 0;
+    color: rgb(19, 2, 2); /* Color for usernames */
+}
+
+textarea {
+    width: 97%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+    background-color: #444; /* Textarea background color */
+    color: #fff; /* Textarea text color */
+    margin-right: 100px;
+}
